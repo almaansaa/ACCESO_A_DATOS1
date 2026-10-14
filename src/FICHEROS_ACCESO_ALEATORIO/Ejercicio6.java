@@ -30,7 +30,6 @@ public class Ejercicio6 {
 
                 double totalPagar = clases * PRECIO_CLASE;
 
-                // Almacenar en precio.dat: Nombre, DNI, Clases (horas) y cantidad a pagar
                 rafDestino.writeChars(new String(nom));
                 rafDestino.writeChars(new String(dni));
                 rafDestino.writeInt(clases);

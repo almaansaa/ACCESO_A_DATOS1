@@ -31,15 +31,14 @@ public class Ejercicio7 {
 
                 double cantidadConDescuento = cantidadAnterior * (1 - descuento / 100.0);
 
-                // Escribir en descuento.dat: DNI, cantidad anterior y cantidad con descuento
                 rafDestino.writeChars(new String(dni));
                 rafDestino.writeDouble(cantidadAnterior);
                 rafDestino.writeDouble(cantidadConDescuento);
             }
             System.out.println("Fichero 'descuento.dat' creado correctamente.");
 
-            // Mostrar contenido por pantalla
-            System.out.println("\n--- CONTENIDO DE DESCUENTO.DAT ---");
+
+            System.out.println("--- CONTENIDO DE DESCUENTO.DAT ---");
             rafDestino.seek(0);
             while (rafDestino.getFilePointer() < rafDestino.length()) {
                 char[] dni = new char[9];

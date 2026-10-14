@@ -16,7 +16,7 @@ public class Ejercicio2 {
         int veces = sc.nextInt();
 
         try (RandomAccessFile raf = new RandomAccessFile(RUTA + FICHERO, "rw")) {
-            // Situar el puntero al final del fichero para añadir registros
+            //pone el puntero al final
             raf.seek(raf.length());
             for (int i = 0; i < veces; i++) {
                 raf.writeInt(numero);

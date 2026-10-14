@@ -17,7 +17,7 @@ public class Ejercicio5 {
         try (RandomAccessFile raf = new RandomAccessFile(RUTA + FICHERO, "rw")) {
             raf.setLength(0);
             for (int i = 0; i < n; i++) {
-                System.out.println("\nAlumno " + (i + 1) + ":");
+                System.out.println("Alumno " + (i + 1) + ":");
 
                 System.out.print("Nombre (10 caracteres): ");
                 StringBuffer sbNombre = new StringBuffer(sc.nextLine());
@@ -42,7 +42,7 @@ public class Ejercicio5 {
                 sc.nextLine();
             }
 
-            System.out.println("\n--- CONTENIDO DEL FICHERO PRACTICAS.DAT ---");
+            System.out.println("--- FICHERO PRACTICAS.DAT ---");
             raf.seek(0);
             while (raf.getFilePointer() < raf.length()) {
                 char[] nom = new char[10];

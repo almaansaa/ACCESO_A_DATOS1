@@ -18,21 +18,18 @@ public class Ejercicio3 {
             for (int i = 0; i < ordenes.length; i++) {
                 raf.writeInt(ordenes[i]);
 
-                // Nombre de tamaño fijo (10 caracteres -> 20 bytes con writeChars)
                 StringBuffer nombre = new StringBuffer(nombres[i]);
                 nombre.setLength(10);
                 raf.writeChars(nombre.toString());
 
                 raf.writeInt(edades[i]);
 
-                // Temática de tamaño fijo (10 caracteres -> 20 bytes)
                 StringBuffer tematica = new StringBuffer(tematicas[i]);
                 tematica.setLength(10);
                 raf.writeChars(tematica.toString());
             }
             System.out.println("Registros de juegos guardados correctamente.");
 
-            // Mostrar el fichero línea a línea
             raf.seek(0);
             while (raf.getFilePointer() < raf.length()) {
                 int orden = raf.readInt();
