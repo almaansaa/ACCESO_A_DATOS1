@@ -20,6 +20,6 @@ public class EJ3Main {
         executor.shutdown();
         executor.awaitTermination(1, TimeUnit.MINUTES);
 
-        System.out.println("Saldo final en la cuenta bancaria: " + cuenta.getSaldo() + " euros (Esperado: 100 euros)");
+        System.out.println("Saldo final en la cuenta bancaria: " + cuenta.getSaldo() + " euros");
     }
 }
