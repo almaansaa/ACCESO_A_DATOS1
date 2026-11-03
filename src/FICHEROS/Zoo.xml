@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<zoo>
+    <felinos>
+        <felino>
+            <nombre>Leon</nombre>
+            <continente>Africa</continente>
+            <peso>155</peso>
+        </felino>
+        <felino>
+            <nombre>Tigre</nombre>
+            <continente>Asia</continente>
+            <peso>215</peso>
+        </felino>
+        <felino>
+            <nombre>Lince</nombre>
+            <continente>Europa</continente>
+            <peso>20</peso>
+        </felino>
+        <felino>
+            <nombre>PanteraTigris</nombre>
+            <continente>America</continente>
+            <peso>95</peso>
+        </felino>
+    </felinos>
+</zoo>

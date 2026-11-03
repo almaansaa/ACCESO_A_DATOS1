@@ -20,4 +20,19 @@
     <Simbolo>SUN</Simbolo>
     <Precio>45.119</Precio>
   </Empresa>
-<Empresa indice="General"><Nombre>Telefonica</Nombre><Simbolo>TLF</Simbolo><Precio>75.5</Precio></Empresa><Empresa indice="tecno"><Nombre>Oracle</Nombre><Simbolo>ORC</Simbolo><Precio>109.75</Precio></Empresa><Empresa indice="General"><Nombre>Inditex</Nombre><Simbolo>IND</Simbolo><Precio>330</Precio></Empresa></Bolsa>
+<Empresa indice="General">
+  <Nombre>Telefonica</Nombre>
+  <Simbolo>TLF</Simbolo>
+  <Precio>75.5</Precio>
+</Empresa>
+  <Empresa indice="tecno">
+    <Nombre>Oracle</Nombre>
+    <Simbolo>ORC</Simbolo>
+    <Precio>109.75</Precio>
+  </Empresa>
+  <Empresa indice="General">
+    <Nombre>Inditex</Nombre>
+    <Simbolo>IND</Simbolo>
+    <Precio>330</Precio>
+  </Empresa>
+</Bolsa>
